@@ -1,0 +1,518 @@
+/*CSS da primeira página: PágFan.html*/
+
+        body {
+            font-family: 'Garamond', serif; 
+            margin: 0; 
+            padding: 0; 
+            background-color: #4343439e; 
+        }
+
+        section {
+            background-color: white; 
+            border: 1px solid #ddd; 
+            margin-right: 20px; 
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+            border-radius: 8px; 
+            margin: 20px; 
+            padding: 20px; 
+            transition: transform 0.3s ease, box-shadow 0.3s ease; 
+            display: flex; 
+            flex-wrap: wrap;
+        }
+
+        section h1 {
+            font-size: 2.5rem; 
+            margin-bottom: 20px; 
+            color: #290438;
+            text-align: center; 
+            width: 100%;
+        }
+
+        section p {
+            font-size: 1.5rem; 
+            color: #412957;
+            line-height: 1.8; 
+        }
+
+        header {
+            background-color: #1b012d; 
+            color: #ffffff; 
+            text-align: center; 
+            padding-bottom: 10px; 
+        }
+
+        header img {
+            width: 100%; 
+            height: auto; 
+            max-height: 400px; 
+            object-fit: cover; 
+        }
+
+        header h1 {
+            margin: 0; 
+            font-size: 2.5em; 
+            padding: 20px 0; 
+        }
+
+        h1 {
+            font-size: 3.5em; 
+            text-align: center; 
+        }
+
+        h2{
+            font-size: 2.2em;
+            text-align: center;  
+            color: #1b012d; 
+        }
+    
+        p a.linkii {
+            font-size: 1.5rem;
+            color: #412957; 
+        }
+
+        p a.linkii:hover {
+            text-decoration: underline; 
+            color: #8656b3; 
+        }
+
+        .estilin{
+            text-align: justify;
+        }       
+
+        .nav-wrap {
+            background-color: #7b1ba028; 
+            overflow-x: auto;
+            white-space: nowrap; 
+            padding: 10px 0; 
+            display: flex; 
+            justify-content: start; 
+        }
+
+        .menu {
+            list-style: none; 
+            padding: 0; 
+            margin: 0; 
+            display: inline-flex; 
+            gap: 20px; 
+        }
+
+        .menu-item {
+            margin: 0; 
+            display: inline-block; 
+        }
+
+        .menu-item a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold; 
+            font-size: 1.2em; 
+            transition: color 0.3s; 
+            padding: 10px; 
+        }
+
+        .menu-item a:hover {
+            color: #af67f3;
+        }
+
+        .integrantes-wrapper {
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            width: 100%; 
+            padding: 20px; 
+            box-sizing: border-box; 
+        }
+
+        .integrantes {
+            display: grid; 
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
+            gap: 2rem; 
+            justify-items: center; 
+            text-align: center; 
+            width: 100%; 
+            max-width: 1200px; 
+        }
+
+        .integrante {
+            position: relative; 
+            width: 100%;
+            max-width: 150px; 
+            height: 150px; 
+            border-radius: 10px;
+            overflow: hidden; 
+            cursor: pointer; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .integrante:hover {
+            transform: translateY(-5px); 
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); 
+        }
+
+        .integrante img {
+            width: 100%;
+            height: 100%; 
+            object-fit: cover; 
+            transition: opacity 0.3s ease-in-out; 
+        }
+
+        .integrante img.front {
+            opacity: 1; 
+        }
+
+        .integrante img.back {
+            opacity: 0; 
+            position: absolute; 
+            top: 0; 
+            left: 0; 
+        }
+
+        .integrante:hover img.front {
+            opacity: 0; 
+        }
+
+        .integrante:hover img.back {
+            opacity: 1;
+        }
+
+        .integrante-name {
+            position: absolute; 
+            bottom: -10px;
+            left: 50%; 
+            transform: translateX(-50%);
+            font-weight: bold;
+            background-color: #0000002b;
+            color: #ffffff; 
+            font-size: 1rem; 
+            padding: 5px 10px; 
+            border-radius: 6px; 
+            opacity: 0; 
+            visibility: hidden; 
+            transition: opacity 0.3s ease, visibility 0.3s ease; 
+        }
+
+        .integrante:hover .integrante-name {
+            opacity: 1;
+            visibility: visible; 
+        }        
+
+        @media (max-width: 768px) {
+        
+            .integrantes {
+                grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); 
+            }
+
+            .integrante {
+                max-width: 120px;
+                height: 120px; 
+            }
+
+            .integrante-name {
+                font-size: 0.9rem;
+                padding: 4px 8px;
+            }
+        }
+
+        .fanfic-card {
+            background: #33133e5e; 
+            border: 1px solid #ddd; 
+            border-radius: 8px; 
+            margin: 20px; 
+            padding: 20px; 
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .fanfic-card:hover {
+            transform: scale(1.02);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15); 
+        }
+
+        .fanfic-card img {
+            width: 120px;
+            height: 200px; 
+            border-radius: 8px; 
+            object-fit: cover; 
+            margin-right: 20px;
+        }
+
+        .fanfic-card h2 {
+            font-size: 1.8em;
+            color: #33133e;
+            margin: 0 0 10px;
+        }
+
+        .fanfic-card p {
+            margin: 5px 0;
+            line-height: 1.6; 
+            color: #290438;
+            text-align: justify; 
+        }
+
+        .fanfic-card {
+            display: flex; 
+            align-items: flex-start; 
+            margin: 20px; 
+            padding: 20px; 
+        }
+
+        .fanfic-card a {
+            display: inline-block; 
+            margin-top: 10px; 
+            padding: 10px 15px;
+            background-color: #36053f; 
+            color: #fff;
+            text-decoration: none; 
+            border-radius: 5px; 
+            font-weight: bold;
+            transition: background-color 0.3s ease; 
+        }
+
+        .fanfic-card a:hover {
+            background-color: #412957; 
+        }
+
+        .fanfic-card span {
+            display: block; 
+            margin-bottom: 20px;
+        }
+
+        #oqeufic h1 {
+            font-size: 2rem;
+            color: rgb(57, 7, 104);
+            margin-bottom: 20px; 
+        }
+
+        #oqeufic p {
+            text-align: justify;
+            margin-top: 20px;
+        }
+
+        .clor {
+            color: #2c0339; 
+        }
+
+        .list-style {
+            padding-left: 0;
+            list-style-position: inside; 
+            margin: 0;
+            padding: 0; 
+            font-size: large;
+        }
+
+        .list-style li {
+            margin: 10px 0;
+            padding: 20px 50px;
+            color: #fff; 
+            border-radius: 5px; 
+            transition: transform 0.3s ease, box-shadow 0.3s ease; 
+            transform: translateY(0);
+        }
+
+        .list-style li:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .list-style li:nth-child(1) {
+            background-color: rgb(127, 89, 160); 
+        }
+
+        .list-style li:nth-child(2) {
+            background-color: rgb(70, 22, 77); 
+        }
+
+        .list-style li:nth-child(3) {
+            background-color: rgb(78, 62, 90);
+        }
+
+        .list-style li:nth-child(4) {
+            background-color: rgb(39, 23, 50); 
+        }
+
+        hr {
+            border: 0;
+            height: 0.1px; 
+            background-color: #1a002c;
+            margin: 0px auto; 
+            width: 100%; 
+        }
+
+        table {
+            width: 95%;
+            margin: 20px auto; 
+            border-collapse: collapse; 
+            font-size: 1em; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+            border-radius: 8px; 
+            overflow: hidden; 
+        }
+
+        table th, table td {
+            padding: 15px 10px; 
+            text-align: left;
+            border-bottom: 1px solid #ddd; 
+        }
+
+        table th {
+            background-color: rgb(70, 22, 77); 
+            color: #fff;
+            text-transform: uppercase; 
+            font-size: 0.9em; 
+        }
+
+        table tr:nth-child(even) {
+            background-color: #f9f9f9; 
+        }
+
+        table tr:hover {
+            background-color: #4d066e23; 
+            transition: background-color 0.3s; 
+        }
+
+        table td {
+            color: #4a0b67;
+        }
+
+        table td:first-child {
+            font-weight: bold; 
+            color: #1b012d;
+        }
+
+        table td a {
+            color: #000; 
+            text-decoration: none; 
+            font-weight: bold;
+            transition: color 0.3s ease; 
+        }
+
+        table td a:hover {
+            color: #382b4245; 
+        }
+
+        .playlist-container {
+            display: grid; 
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); 
+            gap: 100px; 
+            margin-top: 40px;
+            justify-content: center; 
+            align-items: start; 
+            width: 100%; 
+            margin-left: auto; 
+            margin-right: auto; 
+        }
+
+        .playlist {
+            background-color: #260934; 
+            color: #fff; 
+            border-radius: 14px;
+            overflow: hidden; 
+            transition: transform 0.3s ease, box-shadow 0.3s ease; 
+            cursor: pointer; 
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); 
+        }
+
+        .playlist:hover {
+            transform: translateY(-10px); 
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); 
+        }
+
+        .playlist-image {
+            width: 100%; 
+            height: auto; 
+            aspect-ratio: 1 / 1; 
+            object-fit: cover; 
+            transition: opacity 0.3s ease; 
+        }
+
+        .playlist:hover .playlist-image {
+            opacity: 0.8; 
+        }
+
+        .playlist h3 {
+            font-size: 1.5rem;
+            margin: 15px 0; 
+            color: #fff; 
+            padding-left: 16px; 
+        }
+
+        .playlist h5 {
+            font-size: 1.1rem;
+            margin: 15px 0; 
+            color: #fff; 
+            padding-left: 16px; 
+        }
+
+        .playlist a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .playlist a:hover {
+            color: rgb(70, 22, 77);
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .playlist-container {
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+            }
+            .playlist {
+                width: 100%; 
+            }
+        }
+
+        @media (max-width: 480px) {
+            .playlist-container {
+                grid-template-columns: 1fr;
+            }
+
+            .playlist {
+                width: 100%; 
+            }
+        }
+
+        #conteudoFormulario {
+            padding: 15px; 
+            background-color: #fff; /
+            border-radius: 8px; 
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+            margin-top: 20px; 
+        }
+
+        footer {
+            text-align: center; 
+            padding: 20px 0; 
+            background-color: #1b012d; 
+            color: white; 
+        }
+
+        footer a {
+            color: #fff; 
+            text-decoration: none; 
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            color: #ddd; 
+        }
+
+        .decora a {
+            color: #ffffff; 
+            text-decoration: none;
+            font-weight: bold; 
+        }
+
+        .decora a:hover {
+            text-decoration: underline; 
+            color: #af67f3; 
+        }
