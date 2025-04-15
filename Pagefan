@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="pt-BR"> 
+    <head>
+            <meta charset="UTF-8"> 
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+            <title>TOP 10 Fanfics do TWICE</title>
+            <link rel="stylesheet" href="cssdositedasfics.css">
+    </head>
+    <body> 
+        <header>
+            <img src="https://i.pinimg.com/736x/e8/8d/5b/e88d5b1fa4f619f6fb2dd2ea0021c9bc.jpg" alt="Imagem do grupo feminino de kpop TWICE"> 
+            <h1>TOP 10 Fanfics do TWICE</h1> 
+                <nav class="nav-wrap">    
+                    <ul class="menu">    
+                        <li class="menu-item"><a href="#Twice">Sobre o Twice</a></li> 
+                        <li class="menu-item"><a href="#oqeufic">O que é uma fanfic?</a></li>  
+                        <li class="menu-item"><a href="#motivos">Motivos</a></li>  
+                        <li class="menu-item"><a href="#fanfics_table">Fanfics</a></li>  
+                        <li class="menu-item"><a href="#fics_twicee">Fanfics do Twice</a></li>
+                        <li class="menu-item"><a href="#listplay">Indicação de Playlists</a></li>
+                        <li class="menu-item"><a href="#cadU">Cadastro de Usuário</a></li> 
+                        <li class="menu-item"><a href="exibir_dados.html">Dados do Usuário</a></li> 
+                    </ul>
+                </nav>
+        </header>
+
+            <section id="Twice" class="estilin">     
+                <div>
+                    <h1>Sobre o Twice</h1>
+                        <p>O TWICE é um dos grupos mais marcantes da terceira geração do K-pop. Com músicas cativantes, visuais icônicos e uma forte conexão com os fãs por meio das redes sociais, elas conquistaram não apenas o mercado asiático, mas também um grande espaço internacional nos últimos anos.</p>
+                        <br>
+
+                            <h2>Formação e história</h2>
+                                <p>Criado pela JYP Entertainment, uma das agências de entretenimento da Coreia do Sul, o TWICE nasceu do reality show Sixteen em 2015. Nele, as futuras integrantes foram selecionadas a partir de dezenas de trainees, e isso auxiliou a criar uma base de fãs sólida antes mesmo da estreia oficial. 
+                                <br>
+                                O nome <b>TWICE</b> foi pensado pelo J.Y. Park (fundador da JYP) com o intuito de conquistar os fãs duas vezes, uma através das músicas e outra pelo carisma e performances. Esse conceito duplo está presente nas músicas, nas coreografias bem elaboradas e também na personalidade marcante de cada integrante.</p>
+                                <br> 
+                            <h2>Estilo e identidade musical</h2> 
+                                <p>As canções do TWICE transitam por várias vertentes do pop, como dance pop ou electropop, mas sempre mantém a essência: letras cativantes, melodias fáceis de acompanhar e harmonias equilibradas. As composições exploram temas que vão do amor às inseguranças, ressoando especialmente com os jovens. Além disso, o grupo se destaca pelas performances nos shows, mostrando um domínio excelente de técnica.</p> 
+                                <br> 
+                            <h2>As Integrantes do TWICE</h2> 
+                                <p>A imagem do TWICE é cuidadosamente trabalhada, e suas integrantes têm visuais distintos e papéis bem definidos dentro do grupo. Desde os primeiros anos, o conceito "girl next door" predominava, com as elas sendo projetadas como figuras adoráveis e acessíveis. 
+                                <br>
+                                    Com o tempo, o grupo foi evoluindo para uma imagem mais sofisticada e madura, algo que teve início no álbum de <i> Feel Special </i> e  se fortaleceu depois de <i>Formula of Love: O+T=＜3</i>, marcando uma transição para um estilo mais confiante e desenvolvido.
+                                <br>
+                                    Obs.: Passe o cursor do mouse sobre as imagens 😊.</p> 
+                </div>
+                <div class="integrantes-wrapper">
+                    <div class="integrantes">
+                        <div class="integrante">
+                            <img src="https://i.pinimg.com/736x/b3/9b/55/b39b559246ddbaef12f769dfd77526bc.jpg" alt="Jeongyeon" class="front"> 
+                            <img src="https://i.pinimg.com/736x/41/40/8d/41408de337b9f89740d68707819c4a06.jpg" alt="Jeongyeon - Outra imagem" class="back"> 
+                            <p class="integrante-name">Jeongyeon</p>
+                        </div>
+                        <div class="integrante">
+                            <img src="https://i.pinimg.com/736x/50/49/34/504934c2e9dc40bffe4ce31709c0456d.jpg" alt="Nayeon" class="front"> 
+                            <img src="https://i.pinimg.com/736x/d8/eb/e7/d8ebe79343174d865841111bf7f0c574.jpg" alt="Nayeon - Outra imagem" class="back">
+                            <p class="integrante-name">Nayeon</p> 
+                        </div>
+                        <div class="integrante">
+                            <img src="https://i.pinimg.com/736x/0a/80/8c/0a808c9a9998be4880f33271273324df.jpg" alt="Jihyo" class="front"> 
+                            <img src="https://i.pinimg.com/736x/da/f8/7c/daf87c1e190d26d9899c448f2a15b4a1.jpg" alt="Jihyo - Outra imagem" class="back"> 
+                            <p class="integrante-name">Jihyo</p> 
+                        </div>
+                        <div class="integrante">
+                            <img src="https://i.pinimg.com/736x/0e/f6/4b/0ef64bdc3b490374d1b01c7d8c0913e8.jpg" alt="Momo" class="front"> 
+                            <img src="https://i.pinimg.com/736x/e5/20/76/e5207600483f6d70597d6ee71392a81a.jpg" alt="Momo - Outra imagem" class="back">
+                            <p class="integrante-name">Momo</p>
+                        </div>
+                        <div class="integrante">
+                            <img src="https://i.pinimg.com/736x/31/3f/dc/313fdc1914bdef9833172930802b111a.jpg" alt="Sana" class="front">
+                            <img src="https://i.pinimg.com/736x/0b/31/55/0b3155383a924550578b9d5a87dfb1ff.jpg" alt="Sana- Outra imagem" class="back">
+                            <p class="integrante-name">Sana</p>
+                        </div>
+                        <div class="integrante">
+                            <img src="https://i.pinimg.com/736x/39/ab/c2/39abc2fcd11f083e86675a31b8afc4d3.jpg" alt="Mina" class="front">
+                            <img src="https://i.pinimg.com/736x/9b/f2/f4/9bf2f40987016a8d425013f6dd371fea.jpg" alt="Minha - Outra imagem" class="back">
+                            <p class="integrante-name">Mina</p>
+                        </div>
+                        <div class="integrante">
+                            <img src="https://i.pinimg.com/736x/bc/6b/19/bc6b19f35b85221ccf053e8e04e6bca2.jpg" alt="Tzuyu" class="front">
+                            <img src="https://i.pinimg.com/736x/b0/db/e2/b0dbe2bfe5b105352cc22322a729e1d8.jpg" alt="Tzuyu - Outra imagem" class="back">
+                            <p class="integrante-name">Tzuyu</p>
+                        </div>
+                        <div class="integrante">
+                            <img src="https://i.pinimg.com/736x/72/ab/47/72ab47c83d9a84660d0e8114ec7cddeb.jpg" alt="Dahyun" class="front"> 
+                            <img src="https://i.pinimg.com/736x/4f/4d/a8/4f4da8a332e3d5c7c8925d0ea0666420.jpg" alt="Dahyun - Outra imagem" class="back"> 
+                            <p class="integrante-name">Dahyun</p> 
+                        </div>
+                        <div class="integrante">
+                            <img src="https://i.pinimg.com/736x/53/8c/fd/538cfdf5235fdef341b58919726f51c6.jpg" alt="Chaeyoung" class="front">
+                            <img src="https://i.pinimg.com/736x/0b/8e/b1/0b8eb1ff50930a18dc2f46cf279493d0.jpg" alt="Chaeyoung - Outra imagem" class="back">
+                            <p class="integrante-name">Chaeyoung</p>
+                        </div>
+                    </div>
+                </div>            
+            </section>
+
+            <section id="oqeufic"> 
+                <div class="menu-item"> 
+                    <h1>O que é uma Fanfic?</h1>
+                        <br>
+                        <ol class="list-style">
+                            <li>É um termo que se refere a uma narrativa ficcional escrita por fãs, baseada ou não em obras já existentes de outros autores.</li>
+                            <li>São enredos que podem ser curtos ou longos que apresentam gêneros, como romance, drama, comédia ou fantasia.</li>
+                            <li>Geralmente publicadas em plataformas digitais, elas promovem a interação e o compartilhamento entre fãs ao redor do mundo.</li>
+                            <li>Podem e muitas vezes o fazem: oferecer finais alternativos, explorar romances não canônicos (ships), ou até criar universos totalmente novos (AUs – Alternate Universes).</li> 
+                        </ol>
+                        <br>
+                        <p>
+                            Fanfic, fanfiction ou, abreviadamente, fic, é uma narrativa ficcional escrita e divulgada por fãs. Inicialmente existiam em <a href="https://pt.wikipedia.org/wiki/Fanzine" target="_blank" class="linkii">fanzines</a> impressos, posteriormente sendo publicadas em blogs, sites e em outras plataformas pertencentes ao ciberespaço, como o <i>Wattpad, Spirit, Nyah! Fanfiction, Archive of Our Own, Fanfic.net, Tumblr, Inkitt</i>. 
+                            <br> 
+                            No caso do K-pop, é comum que fãs escrevam fanfics sobre seus ídolos, criando enredos românticos, dramáticos ou de fantasia. Eu digo e repito, tem muita fanfic que coloca best-seller no chinelo, mas o assunto de hoje não é sobre isso.
+                        </p>
+                </div>
+            </section>
+            <section id="motivos"> 
+                <div class="menu-item"> 
+                    <h1>Motivos convincentes para ler fanfics do Twice</h1> 
+                        <br>
+                        <ul class="list-style">
+                            <li>As fanfics do Twice são as que mais geram entretenimento: elas são perfeitas para quem quer descontrair, se emocionar e se divertir com histórias criativas e cheias de tudo que você sequer pode imaginar.</li>
+                            <li>Desenvolvimento do senso crítico: comentários e feedbacks ajudam escritores a melhorar suas histórias, criando um espaço de crescimento para todos.</li>
+                            <li>Autenticidade: as fanfics, no geral, trazem exclusividade aos leitores, permitindo que você descubra romances e universos que só existem ali.</li>
+                            <li>Os escritores cronicamente onlines merecem mais visibilidade: ao ler fanfics, você apoia muitos escritores que compartilham suas histórias, ajudando a dar visibilidade a esses criadores.</li> 
+                        </ul>
+                        <br>
+                        <p style="text-align: justify;">Ler fanfics do Twice é uma maneira divertida e emocionante de mergulhar em histórias criadas por fãs, cheias de criatividade e sentimento. Elas trazem enredos que, muitas vezes, são mais cativantes do que muitas produções por aí, e o melhor é que você se sente parte do universo do grupo, vivendo as aventuras como se fosse um personagem também. Além disso, ao apoiar esses escritores, você ajuda a dar visibilidade a um pessoal super talentoso que está sempre criando novidades para os fãs. Se você curte o Twice e quer algo diferente e autêntico, as fanfics são a pedida certa!
+                        </p> 
+                </div>
+            </section>
+            
+            <section id="fanfics_table" class="estilin"> 
+                <h1>Fanfics</h1>
+                    <p>Nesse blog, você conhecerá as dez melhores fanfics do Twice — na minha opinião, é claro. Vamos explorar e nos aprofundar nessa subcultura digital, que é tão conhecida quanto estigmatizada, mas cheia de histórias com enredos e narrativas estilisticamente emocionantes, descontraídas e tocantes. Aqui, as relações, ou melhor, as próprias integrantes do grupo ganham vida e desenvolvimentos interpessoais em outras realidades construídas pelos fãs que os apelidei carinhosamente de <i>fanficista</i>.</p> 
+                <hr> 
+                <h1>Tabela sobre as fanfics</h1>
+                    <table> 
+                        <thead>
+                            <tr>
+                                <th>Fanfic</th>
+                                <th>Situação</th>
+                                <th>Formato</th>
+                                <th>Capítulos</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Beautiful Goodbye</td>
+                                <td>Concluída</td>
+                                <td>Longfic</td>
+                                <td>33</td>
+                            </tr>
+                            <tr>
+                                <td>Medicine</td>
+                                <td>Concluída</td>
+                                <td>Oneshot</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>Secreto</td>
+                                <td>Concluída</td>
+                                <td>Longfic</td>
+                                <td>41</td>
+                            </tr>
+                            <tr>
+                                <td>Vênus</td>
+                                <td>Concluída</td> 
+                                <td>Longfic</td>
+                                <td>70</td>
+                            </tr>
+                            <tr>
+                                <td>Game Over, Love Start</td>
+                                <td>Concluída</td>
+                                <td>Shortfic</td>
+                                <td>10</td>
+                            </tr>
+                            <tr>
+                                <td>Trick It</td>
+                                <td>Concluída</td>
+                                <td>Longfic</td>
+                                <td>48</td>
+                            </tr>
+                            <tr>
+                                <td>Hot Mess</td>
+                                <td>Concluída</td>
+                                <td>Longfic</td>
+                                <td>36</td>
+                            </tr>
+                            <tr>
+                                <td>Vampiros Que Se Mordam</td>
+                                <td>Em Andamento</td>
+                                <td>...</td>
+                                <td>36</td>
+                            </tr>
+                            <tr>
+                                <td>APCV</td>
+                                <td>Concluída</td>
+                                <td>Longfic</td>
+                                <td>42</td>
+                            </tr>
+                            <tr>
+                                <td>Show Me How</td>
+                                <td>Concluída</td>
+                                <td>Longfic</td>
+                                <td>48</td>
+                            </tr>
+                        </tbody>
+                        </table>
+                </section>
+                <section id="fics_twicee" style="background-color: rgb(255, 255, 255);"> 
+                        <h1>Fanfics do Twice</h1> 
+                            <div id="beautiful-goodbye" class="fanfic-card"> 
+                                <img src="https://img.wattpad.com/cover/203519727-256-k559460.jpg" alt="Capa da Fanfic: Beautiful Goodbye"> 
+                                <div class="fanfic-info"> 
+                                    <h2>1. Beautiful Goodbye</h2> 
+                                    <span class="clor"><strong>Autora:</strong> @lalisasflower</span> 
+                                    <span class="clor"><strong>Leituras:</strong> 55 mil</span> 
+                                    <span class="clor"><strong>Votos:</strong> 6.6 mil</span> 
+                                    <span class="clor"><strong>Disponível:</strong> Wattpad</span> 
+                                </div>
+                                    <p>A fanfic "Beautiful Goodbye" narra uma história de recomeços, mostrando como podemos nos desconstruir e reconstruir quantas vezes forem necessárias, sem jamais esquecer quem fomos e o que enfrentamos para chegar até onde estamos. Nesse enredo, somos apresentados ao casal principal, Sana e Tzuyu, que compartilham o sonho de se tornarem mães e, com muito esforço, conseguem realizar esse desejo. Mas, assim como toda ação traz consigo uma reação, aquilo que mais desejamos pode, por vezes, se transformar em um dilema — seja por nossas próprias escolhas ou pelas influências externas. Um detalhe significativo da história é a escolha do nome da filha delas. 
+                                        <br>
+                                        Nós somos introduzidos à narrativa com o nascimentos de Mina, cujo nome significa "amor". E a escolha desse nome não é por acaso; ela reflete a essência do relacionamento do casal, onde o amor permanece constante e firme, mesmo diante de todas as adversidades. Eu gosto de pensar que nem o tempo, nem as decepções, nem as dificuldades têm o poder de separar aqueles que nasceram para caminhar juntos e essa ideia se manifesta na relação delas. 
+                                        <br>
+                                        Algo que me tocou profundamente foi a perspectiva ficcional de explorá-las como mães, apresentando a maternidade de mulheres sáficas de maneira tão realista, confesso que fica difícil não se emocionar.
+                                        <br>
+                                        O desenvolvimento das personagens não segue um único eixo central; às vezes, parece até disperso em relação ao ponto que determina esse crescimento. Só que, essa aparente desconexão é compensada pela reconstrução das relações interpessoais, que cria uma teia de emoções tão intíma que nos sentimos parte de um pedacinho daquele mundo. 
+                                        <br>
+                                        Sim, o enredo pode ser considerado clichê, mas há algo surpreendente na forma como ele prende o leitor do início ao fim. Sabe aquela sensação de experimentar algo novo, sem saber ao certo se é bom ou apenas diferente, e aí você sente a necessidade de vivê-lo de novo para entender melhor? Minha experiência com Beautiful Goodbye é exatamente assim. Volto a relê-la sempre que sinto a necessidade de encontrar um pouco de tudo — amor, dor, superação e esperança — em uma única narrativa. É uma história maravilhosa e eu tenho um ciúme enorme dela.
+                                    </p>  
+                                    <a href="https://www.wattpad.com/story/203519727-beautiful-goodbye" target="_blank">Ler Fanfic</a> 
+                            </div>
+                        
+                            <div id="medicine" class="fanfic-card">
+                                <img src="https://img.wattpad.com/cover/379263815-256-k12372.jpg" alt="Capa da Fanfic:'Medicine'">
+                                <div>
+                                    <h2>2. Medicine</h2>
+                                    <span class="clor"><strong>Autora:</strong> @Momomoom_</span>
+                                    <span class="clor"><strong>Leituras:</strong> 140</span>
+                                    <span class="clor"><strong>Votos:</strong> 26</span>
+                                    <span class="clor"><strong>Disponível:</strong> Wattpad</span>
+                                </div>    
+                                    <p> O oneshot "Medicine" é contado sob a perspectiva de Dahyun, uma paciente cuja relação intensa com sua terapeuta, Sana, se revela gradualmente como uma percepção distorcida. A narrativa utiliza repetição e introspecção para refletir sobre o estado mental da protagonista, expondo como sua mente molda e altera sua visão da realidade.
+                                        A reviravolta final transforma completamente o entendimento da história, trazendo à tona os efeitos de seu transtorno na percepção de relacionamentos e na dificuldade em distinguir o que é de verdade ou não. Com sensibilidade, a trama explora a fragilidade psicológica e os limites entre sanidade e delírio, o que acaba nos desafiando a refletir sobre percepção e realidade.
+                                    </p>
+                                    <a href="https://www.wattpad.com/story/379263815-medicine-%E2%80%A2-saida?utm_source=android&utm_medium=whatsapp&utm_content=story_info&wp_page=story_details_button&wp_uname=B1n2m4d" target="_blank">Ler Fanfic</a>
+                                </div>
+                            </div>
+                            
+                            <div id="secreto" class="fanfic-card">
+                                <img src="https://img.wattpad.com/cover/180625127-512-k379470.jpg" alt="Capa da Fanfic:'Secreto'">
+                                <div>
+                                    <h2>3. Secreto</h2>
+                                    <span class="clor"><strong>Autora:</strong> @afaclos</span>
+                                    <span class="clor"><strong>Leituras:</strong> 700 mil</span>
+                                    <span class="clor"><strong>Votos:</strong> 64.1mil</span>
+                                    <span class="clor"><strong>Disponível:</strong> Wattpad</span>
+                                </div>
+                                    <p>Na fanfic "Secreto", somos transportados para uma narrativa carregada de emoções e nuances (essa a marca registrada da autora), explorando os dilemas de socialização de Chou Tzuyu, uma jovem tímida e brilhante que nutre um amor secreto por Minatozaki Sana, a garota popular que parece ser inalcançável. 
+                                        <br>
+                                        Convencida de que seus sentimentos jamais serão correspondidos, Tzuyu aceita admirar Sana de longe — até que, em um raro momento de coragem, ela faz algo que muda tudo: envia uma mensagem para Sana. E é a partir desse gesto aparentemente simples, mas incrivelmente significativo, que Secreto se desenrola, revelando uma história sobre insegurança, autodescoberta e o impacto transformador das conexões. Essa narrativa nos guia pelos pensamentos mais íntimos de Tzuyu, as suas hesitações e medos, isso enquanto aprende que o amor, mesmo quando parece inalcançável, ainda consegue encontrar formas inesperadas de fluir. Eu gosto bastante da forma que a relação entre Tzuyu e Sana é construída, com delicada e respeito. Cada interação é rica em detalhes, e o leitor sente a tensão, o nervosismo e, sobretudo, a vulnerabilidade de Tzuyu em cada palavra dita ou não dita.
+                                        <br>
+                                        Esse enredo é uma celebração das pequenas vitórias emocionais que marcam a jornada de quem se atreve e consegue sair das sombras de sua própria insegurança. A autora aborda temas como timidez e o medo de rejeição com uma sensibilidade que ressoa profundamente, ao mesmo tempo em que nos lembra do poder transformador de um simples de um "e se?". Além disso, ela é um retrato sincero das emoções que todos os adolescente já enfrentaram ao tentar se conectar com os outros e com nós mesmos. Jovem, intensa e irresistivelmente sensível, é uma leitura que ficará marcada no coração de quem se permitir ser tocados por sua simplicidade e desenvolvimento.
+                                    </p>
+                                    <a href="https://www.wattpad.com/story/180625127?utm_source=android&utm_medium=whatsapp&utm_content=story_info&wp_page=story_details_button&wp_uname=B1n2m4d" target="_blank">Ler Fanfic</a>
+                            </div>
+                            
+                            <div id="venus" class="fanfic-card">
+                                <img src="https://img.wattpad.com/cover/185920266-512-k586859.jpg" alt="Capa da Fanfic:'Vênus'">
+                                <div>
+                                    <h2>4. Vênus</h2>
+                                    <span class="clor"><strong>Autora:</strong> @stillburns</span>
+                                    <span class="clor"><strong>Leituras:</strong> 283 mil</span>
+                                    <span class="clor"><strong>Votos:</strong> 34.9 mil</span>
+                                    <span class="clor"><strong>Disponível:</strong> Wattpad</span>
+                                </div>    
+                                    <p>A longfic "Vênus", explora como a vida de Yoo Jeongyeon se transforma com a chegada de Im Nayeon — sua vizinha de prédio e uma estudante dedicada, que há tempos guardava em segredo uma paixão por ela. Essa narrativa é uma jornada de autodescoberta, onde duas mulheres se encontram e aprendem que com o controle, há pouca estabilidade, e é na imprevisibilidade que reside a oportunidade.
+                                        <br>
+                                        Jeongyeon, acostumada a manter tudo sob controle, vê sua rotina cuidadosamente planejada ser desafiada por Nayeon. Ao longo da trama, acompanhamos sua evolução, um processo doloroso e tocante, onde ela aprende a enfrentar os dilemas de existir de forma autêntica. Cada passo rumo à aceitação — seja de si mesma ou das mudanças inevitáveis da vida — é uma vitória que vai mexer com você de um jeito ou de outro. A construção da relação entre Jeongyeon e Nayeon vai além de uma conexão romântica. Porque a história visa no impacto transformador que uma pessoa pode ter na vida da outra, forçando a desconstrução de antigas barreiras para reconstrução de pontes por exemplo. 
+                                        <br>
+                                        Ela é uma montanha-russa de emoções: há diálogos que divertidos, que nos fazem refletir sobre nossas próprias escolhas e, principalmente, há momentos que carregam uma vulnerabilidade quase que palpável. Vênus não se contenta em ser apenas uma fanfic, porque ela mergulha fundo nas complexidades das relações humanas, trazendo inúmeras reflexões que surpreendem pela profundidade.
+                                    </p>
+                                    <a href="https://www.wattpad.com/story/185920266-v%C3%AA%E0%B8%97%CF%85s-%E2%80%A2-2yeon?utm_source=android&utm_medium=whatsapp&utm_content=share_reading&wp_page=reading_list_details&wp_uname=B1n2m4d" target="_blank">Ler Fanfic</a>
+                            </div>
+                            
+                            <div id="game-over-love-start" class="fanfic-card">
+                                <img src="https://img.wattpad.com/cover/343682319-256-k514293.jpg" alt="Capa da Fanfic: 'Game Over, Love Start'">
+                                <div>
+                                    <h2>5. Game Over, Love Start</h2>
+                                    <span class="clor"><strong>Autora:</strong> @OhaMerdaQueVaiDar</span>
+                                    <span class="clor"><strong>Leituras:</strong> 1.1 mil</span>
+                                    <span class="clor"><strong>Votos:</strong> 641</span>
+                                    <span class="clor"><strong>Disponível:</strong> Wattpad</span>
+                                </div>
+                                    <p>A shortfic "Game Over, Love Start" se passa nos anos 90 e explora um clichê: romance entre rebelde e patricinha. Sana é o estereótipo de bad girl: jaqueta de couro, calça folgada e sempre está com um skate na mão. O fliperama da cidade é seu lugar favorito, um refúgio onde ela e sua melhor amiga passam os dias fugindo do brilho exagerado do novo shopping que está conquistando os outros adolescentes. 
+                                        Ela é uma lenda em <i>Speed Demons</i>, com um recorde que ninguém tinha sequer tentado bater. Até que, um dia, ela chega ao fliperama e dá de cara com seu nome fora do topo do ranking. 
+                                        <br>
+                                        No lugar dele, está o de Jihyo, a patricinha mais conhecida da escola. Determinada a recuperar seu título, Sana desafia Jihyo para uma disputa cheia de tensão, rivalidade e algumas descobertas nem tão inesperadas assim para nós, meros leitores.  
+                                        À medida que essa rivalidade avança para algo mais do que amigável, Sana percebe que esse verão promete muito mais do que disputas no <i>Speed Demons</i> — talvez o verdadeiro desafio seja entender o que está surgindo entre Jihyo e ela.
+                                    </p>
+                                    <a href="https://www.wattpad.com/story/343682319-game-over-love-start-sahyo?utm_source=android&utm_medium=whatsapp&utm_content=share_reading&wp_page=reading_list_details&wp_uname=B1n2m4d" target="_blank">Ler Fanfic</a>
+                                
+                            </div>
+                            
+                            <div id="trick-it" class="fanfic-card">
+                                <img src="https://img.wattpad.com/cover/203462064-256-k529911.jpg" alt="Capa da Fanfic:'Trick It'">
+                                <div>
+                                    <h2>6. Trick It</h2>
+                                    <span class="clor"><strong>Autora:</strong> @strawminari</span>
+                                    <span class="clor"><strong>Leituras:</strong> 205 mil</span>
+                                    <span class="clor"><strong>Votos:</strong> 24.3 mil</span>
+                                    <span class="clor"><strong>Disponível:</strong> Wattpad</span>
+                                </div>    
+                                    <p>Trick It é aquela história que você lê e sente vontade de tê-la como um livro físico, algo para folhear, marcar trechos e revisitar sempre que der saudade. É uma fanfic que mistura tudo na medida certa: humor ácido, suspense, investigação e um toque de romance, que de certeza vai chamar sua atenção. 
+                                        <br>
+                                        Cada capítulo é escrito com tanto cuidado que parece que cada detalhe, cada frase, foi pensado para te fazer desconfiar de tudo e de todos, isso enquanto tenta desvendar o que está por trás dos acontecimentos. A trama acompanha Mina, uma detetive desiludida, cansada e prestes a abandonar a profissão, que encara o último caso de sua carreira. Ao lado dela está Chaeyoung, sua assistente jovem e cheia de admiração pelo trabalho de sua mentora. 
+                                        <br>
+                                        De forma simultânea a investigação de uma série de assassinatos e eventos misteriosos, as duas acabam desenvolvendo uma conexão especial. Mas o que faz Trick It ser tão marcante é que o romance não rouba a cena; ele complementa a história, que continua sendo sobre suspense, mistério. Se fosse um livro físico, seria o tipo de história que faz você virar páginas como se sua vida dependesse disso, torcendo por respostas e também por migalhas do que está acontecendo entre Mina e Chaeyoung. A tensão, tanto dos casos que elas investigam quanto da relação entre as duas, é tão bem construída que você mal consegue respirar entre um capítulo e outro.
+                                        <br>
+                                        Para quem é fanfiqueiro e gosta de mistérios, Trick It é uma das minhas melhores recomendações. E outra, sabe qual é o melhor de tudo? É que ela tem uma continuação que ainda está em andamento, mas promete ser tão boa quanto a primeira parte.
+                                    </p>
+                                    <a href="https://www.wattpad.com/story/203462064-trick-it-1%C2%AA-temporada?utm_source=android&utm_medium=whatsapp&utm_content=story_info&wp_page=story_details_button&wp_uname=B1n2m4d" target="_blank">Ler Fanfic</a>
+                                </div>
+                            </div>
+                            
+                            <div id="hot-mess" class="fanfic-card">
+                                <img src="https://img.wattpad.com/cover/329113223-256-k309780.jpg" alt="Capa da Fanfic:'Hot Mess'">
+                                <div>
+                                    <h2>7. Hot Mess</h2>
+                                    <span class="clor"><strong>Autora:</strong> @Momomoom_</span>
+                                    <span class="clor"><strong>Leituras:</strong> 147 mil</span>
+                                    <span class="clor"><strong>Votos:</strong> 13.2 mil</span>
+                                    <span class="clor"><strong>Disponível:</strong> Wattpad</span>
+                                </div>    
+                                    <p>Hot Mess é aquele tipo de história que te pega de surpresa, misturando risadas com reflexões profundas. Ela começa com piadas bobas e situações engraçadas, mas logo te envolve de um jeito que você não espera, levando a momentos de sensibilidade e profundidade.
+                                        <br>
+                                        A trama acompanha Momo, uma mulher desempregada e sem muitas opções, que acaba aceitando o primeiro trabalho que aparece. Porém, o que parecia ser um emprego comum vem com uma chefe — Dahyun — que, com suas investidas absurdas e cômicas, se transforma em uma sátira dos romances clássicos entre o chefe e a secretária. Mas o que começa como pura diversão logo se complica. As duas não conseguem se entender, e a relação delas vira um emaranhado de confusões e mal-entendidos, criando uma dinâmica que vai além da simples comédia. 
+                                        <br>
+                                        E é aí que entra quem? Isso mesmo! Marília Mendonça. Esta que não só assume o papel de ombro amigo, mas também o de conselheira, que aparece para dar umas sacudidas nas duas e fazer com que, finalmente, elas encarem a verdade sobre si mesmas e o que realmente querem. Apesar de tantas risadas e momentos divertidos, Hot Mess vai muito além da comédia. A história é um lembrete de que, mesmo nas situações mais caóticas, há algo a aprender sobre a vida, os relacionamentos, as nossas próprias inseguranças e que as situações que passamos não nos definem - elas serviram para lapidar quem somos hoje, pois sem elas não seríamos quem somos.
+                                        <br>
+                                        A autora consegue, com uma sensibilidade incrível, conectar temas pesados e extremamente delicados com piadas que quebram o clima tenso sem tirar a seriedade deles, permitindo que a gente reflita sem que o peso dessas questões seja u absurdo. É uma história que vai te fazer rir até doer, mas também vai mexer com você em alguns momentos, te fazendo pensar sobre como lidamos com nossos próprios erros e confusões. Ela é incrível, de verdade. Leiam.
+                                    </p>
+                                        <a href="https://www.wattpad.com/story/329113223-hot-mess-%E2%80%A2-dahmo?utm_source=android&utm_medium=whatsapp&utm_content=share_reading&wp_page=reading_list_details&wp_uname=B1n2m4d" target="_blank">Ler Fanfic</a>
+                                </div>
+                            </div>
+                            
+                            <div id="vampiros-que-se-mordam" class="fanfic-card">
+                                <img src="https://img.wattpad.com/cover/355101245-512-k647459.jpg" alt="Capa da Fanfic:'Vampiros Que Se Mordam'">
+                                <div>
+                                    <h2>8. Vampiros Que Se Mordam!</h2>
+                                    <span class="clor"><strong>Autora:</strong> @dahyunfamous</span>
+                                    <span class="clor"><strong>Leituras:</strong> 19.7 mil</span>
+                                    <span class="clor"><strong>Votos:</strong> 2.6 mil</span>
+                                    <span class="clor"><strong>Disponível:</strong> Wattpad</span>
+                                </div>    
+                                    <p>"Vampiros que se Mordam" é uma fanfic em andamento que te conquista inicialmente pelo humor, mas logo mostra que tem muito mais para oferecer. A experiência de ler essa história é semelhante a de comer um merengue de morango: doce e sutil na maior parte do tempo, mas com aquele toque sutil de salgado que traz equilíbrio e, obviamente, te faz querer mais.
+                                        <br>
+                                        Embora seja uma fantasia, o foco não está tanto no universo, mas sim nos relacionamentos dos três casais principais. Cada dinâmica é construída com cuidado, fluindo de maneira surpreendentemente natural, mesmo em situações previsíveis - como o quarto do hotel só ter uma cama ou o apartemento só ter um quarto. O ritmo é calmo e sem pressa, tornando a leitura ainda mais prazerosa, pois valoriza o crescimento gradual das conexões entre as personagens que são muito abrasileirados e isso faz a gente se sentir pertinho delas. 
+                                        <br>
+                                        Essa fanfic é tão envolvente que me levou a buscar outras obras da autora. A escrita é descritiva, sensível e carregada de uma naturalidade que me surprende demais. Sou completamente apaixonada pela forma que ela desenvolve os casais e como constrói as interações, sempre equilibrando diversão com o peso da emotividade. Eu considero como uma leitura que conquista não apenas pela leveza, mas também pelo toque de significado que vai ganhando com o decorrer do enredo.</p>
+                                    <a href="https://www.wattpad.com/story/355101245-vampiros-que-se-mordam?utm_source=android?external=true" target="_blank">Ler Fanfic</a>
+                            </div>
+                            
+                            <div id="apcv" class="fanfic-card">
+                                <img src="https://img.wattpad.com/cover/266797479-256-k254149.jpg" alt="Capa da Fanfic:'APCV'">
+                                <div>
+                                    <h2>9. APCV</h2>
+                                    <span class="clor"><strong>Autora:</strong> @afaclos</span>
+                                    <span class="clor"><strong>Leituras:</strong> 1.4 milhão</span>
+                                    <span class="clor"><strong>Votos:</strong> 99.4 mil</span>
+                                    <span class="clor"><strong>Disponível:</strong> Wattpad</span>
+                                </div>
+                                    <p>APCV... Eu me encontro sem palavras para expressar o quanto essa fanfic significa para mim. Ler cada capítulo, incluindo o especial de Natal, foi e continua sendo uma honra. Essa história tem o poder de trazer tudo para perto de quem lê, como se você estivesse lá, vivendo cada momento. Ainda é um tópico sensível falar sobre ela, por um motivo muito simples: nunca li um romance que chegasse aos pés dessa fanfic.
+                                        <br>
+                                        Tudo nela é incrivelmente cativante. Os personagens são profundos, os diálogos são sinceros, as situações são marcantes e as descrições das cenas são tão vívidas que parecem um filme projetado na sua mente. É o tipo de história que deixa marcas, que vai te deixar completamente marcado. Tenho certeza de que o final será memorável para todos que se permitirem mergulhar na narrativa e, especialmente, para aqueles que ousarem relê-la.
+                                        <br>
+                                        Essa fanfic tem uma peculiaridade que chama muito minha atenção: a capacidade de te roubar algo que nem mesmo você sabia que tinha. Você vai ouvir "Stand by Me" e ser transportado para a cena no bunker com elas dançado. Vai ouvir "Like a Virgin" e sorrir ao lembrar da Sana cantando para a Tzuyu. E, mais do que isso, você vai desejar viver um amor como o delas, onde sinceridade e intimidade constroem uma confiança que poucos conhecem e alcançam.
+                                        <br>
+                                        Eu não vou tentar resumir, escrever uma sinopse ou fazer uma resenha dessa história, porque nenhuma dessas coisas será suficiente para convencer alguém a lê-la. Mas uma coisa é certa: essa história vai mexer profundamente com quem a ler pela primeira vez — e ainda mais com quem decidir relê-la.</p>
+                                    <a href="https://www.wattpad.com/story/266797479-aulas-para-com-certeza-virgens?utm_source=android&utm_medium=whatsapp&utm_content=share_reading&wp_page=reading_list_details&wp_uname=B1n2m4d" target="_blank">Ler Fanfic</a>
+                            </div>
+                            
+                            <div id="show-me-how" class="fanfic-card">
+                                <img src="https://img.wattpad.com/cover/201376260-256-k534573.jpg" alt="Capa da Fanfic:'Show Me How'">
+                                <div>
+                                    <h2>10. Show Me How</h2>
+                                    <span class="clor"><strong>Autor:</strong> @hiraivodka</span>
+                                    <span class="clor"><strong>Leituras:</strong> 467 mil</span>
+                                    <span class="clor"><strong>Votos:</strong> 47.3 mil</span>
+                                    <span class="clor"><strong>Disponível:</strong> Wattpad</span>
+                                </div>
+                                <div class="butaozin">
+                                    <p>Show Me How é uma das melhores fanfics de fantasia que já li — e isso vindo de alguém que não é fã do gênero. Ela se desenrola em uma distopia onde monarquias ainda governam diversos reinos, só que com um toque futurista e, embora existam democracias nesse mundo, elas não são exploradas, deixando o foco nos conflitos e dramas da elite regente do cenário que acompanharemos.
+                                        <br>
+                                        O enredo é cheio de detalhes ricos e referências sutis ao MV de "Feel Special". Como as descrições das roupas dos personagens, o local onde Chaeyoung é mantida prisioneira e até mesmo floresta por onde Mina escapa de seu próprio casamento são elementos que além de fazer essa referência, nos transportam para um cenário visualmente interessante e narrativamente curioso. Essa fuga, inclusive, representa o ponto central da história: Mina, a princesa, abandonando uma vida de regalias em busca de algo que nunca teve — liberdade.
+                                        <br>
+                                        Além de seu universo fascinante, a fanfic também carrega lições marcantes. Uma delas é o contraste entre o conforto proporcionado pela riqueza e a vivacidade que ela frequentemente priva. Também fala sobre necessidade e desejo, isso relacionado a um contexto bem delicado abordado no próprio enredo. A obra ganhou uma adaptação em livro físico, chamada "Rebeldes, Revoluções e Outras Coisas Que as Princesas Gostam". Apesar do título não ser o meu favorito, o impacto da história permanece e a felicidade de ter o livro físico é sensacional.</p>
+                                    <a href="https://www.wattpad.com/story/201376260-show-me-how?utm_source=android&utm_medium=whatsapp&utm_content=story_info&wp_page=story_details_button&wp_uname=B1n2m4d" target="_blank">Ler Fanfic</a>
+                                    <a href="https://www.amazon.com.br/Rebeldes-revolu%C3%A7%C3%B5es-outras-coisas-princesas/dp/6555323000" target="_blank">Livro na Amazon</a>
+                                </div>
+                            </div> 
+                </section>   
+
+                <section id="listplay"> 
+                    <h1>Indicação de Playlists:</h1> 
+                    <p>As playlists abaixo são diversas, aproveite!
+                        <br>
+                        Obs.: Para acessar a playlist, basta clicar duas vezes nela
+                    </p> 
+                    <div class="playlist-container"> 
+                        <div class="playlist" data-link="https://open.spotify.com/playlist/1VF40kUNpsmwQc3wgywELx"> 
+                            <img src="https://pbs.twimg.com/media/FmXEd91WAAEzamh.jpg:large" alt="Imagem da playlist " class="playlist-image"> 
+                            <h3>n★ite onírica</h3> 
+                            <h5>De: madel</h5>
+                        </div>
+                        <div class="playlist" data-link="https://open.spotify.com/playlist/3XyXVqtqFimnQG6yuj1Ss4?si=khKVq81GSnGOrvz77etgKA&pi=nUFGF3mXT8q7A">
+                            <img src="https://i.pinimg.com/736x/9f/45/e7/9f45e7fc6ee3de61856d5e96da14ed88.jpg" alt="Imagem de Fancy" class="playlist-image">
+                            <h3>soninhodepressivo</h3>
+                            <h5>De: Almeida</h5>
+                        </div>
+                        <div class="playlist" data-link="https://open.spotify.com/playlist/4V7p4nk5JoGYeZn8lSI2sp">
+                            <img src="https://i.pinimg.com/736x/1d/99/1d/1d991d0ab2558af2965aad1b2a8fd268.jpg" alt="Imagem da playlist" class="playlist-image">
+                            <h3>é tarde de sábado?</h3>
+                            <h5>De: madel</h5>
+                        </div>
+                        <div class="playlist" data-link="https://open.spotify.com/playlist/3YCWNwElfSOWPPj6DvFuxi">
+                            <img src="https://i.pinimg.com/736x/6b/1c/db/6b1cdbbf98e40288208b744dd43d10ae.jpg" alt="Imagem da playlist" class="playlist-image">
+                            <h3>satzu apcv¡</h3>
+                            <h5>De: bru</h5>
+                        </div>
+                        <div class="playlist" data-link="https://open.spotify.com/playlist/2DGtGEkgOkP4GNtgR5zsSk">
+                            <img src="https://i.pinimg.com/736x/f3/62/89/f362891b88a5e278f3c189e9926df130.jpg" alt="Imagem da playlist" class="playlist-image">
+                            <h3>Game Over, Love Start</h3>
+                            <h5>De: Lara</h5>
+                        </div>
+                        <div class="playlist" data-link="https://open.spotify.com/playlist/6OXFhDLtWFOs8qEFhlE00k">
+                            <img src="https://i.pinimg.com/736x/c0/98/42/c09842b610f9c26e2ab88a257db686ca.jpg" alt="Imagem da playlist" class="playlist-image">
+                            <h3>vampiros que se mordam</h3>
+                            <h5>De: jaki</h5>
+                        </div>
+                        <div class="playlist" data-link="https://open.spotify.com/playlist/721QnIrDe7QbM4l2aR7VJh">
+                            <img src="https://i.pinimg.com/736x/ba/67/90/ba6790ac2ce3b1e47ab5df8272388ff8.jpg" alt="Imagem da playlist" class="playlist-image">
+                            <h3>nocoments</h3>
+                            <h5>De: Almeida</h5>
+                        </div>
+                        <div class="playlist" data-link="https://open.spotify.com/playlist/6jGkDRmr2q2NIeU0EhEPwr">
+                            <img src="https://i.pinimg.com/736x/bb/38/2d/bb382d282eb3bd14d9a060f2248a6769.jpg" alt="Imagem da playlist" class="playlist-image">
+                            <h3>40s/50s/60s love/slow songs</h3>
+                            <h5>De: Arielsimone07</h5>
+                        </div>
+                        <div class="playlist" data-link="https://open.spotify.com/playlist/5SiX8U1WGxxachSZqrFiWn">
+                            <img src="https://i.pinimg.com/736x/ae/da/fd/aedafd873ba4a71acd84f5288743087a.jpg" alt="Imagem da playlist" class="playlist-image">
+                            <h3>deixa eu bagunçar você?</h3>
+                            <h5>De: analuizafusik</h5>
+                        </div>
+                    </div>
+                </section>
+                    <script> 
+                        const playlists = document.querySelectorAll('.playlist');
+
+                            playlists.forEach(playlist => {
+                            playlist.addEventListener('dblclick', () => {
+                            
+                            const playlistLink = playlist.getAttribute('data-link');
+                            
+                            window.open(playlistLink, '_blank');
+                            });
+                        });
+                    </script>
+
+                    <div id="cadU">
+                        <div id="conteudoFormulario"></div>
+                    </div>
+                        <script>
+                            
+                            window.onload = function() {
+                                
+                                let caixinha = document.getElementById('caixinha');
+                                
+                                let formulario = document.getElementById('conteudoFormulario');
+
+                                formulario.innerHTML = "<iframe src='formulário.html' width='100%' height='500px' style='border:none;'></iframe>";
+                            };
+                        </script>
+
+            <footer> 
+                <p>Essa página foi feita por Maria Eduarda Almeida de Noronha.</p> 
+                <p>&copy; 2024 Todos os direitos reservados.</p> 
+                <p class="decora"><a href="#">Voltar ao topo</a></p> 
+            </footer>
+            
+    </body>
+</html>
